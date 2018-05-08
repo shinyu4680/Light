@@ -44,6 +44,7 @@ class ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        colorArray.removeAll()
         // Dispose of any resources that can be recreated.
     }
 
